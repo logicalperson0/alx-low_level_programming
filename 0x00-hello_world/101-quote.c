@@ -1,12 +1,14 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	char str2[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(2, str2, 59);
 	return (1);
 }
