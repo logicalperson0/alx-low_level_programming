@@ -9,3 +9,5 @@
 4 The file 4-print_alphabt program that prints the alphabet in lowercase,Prints all the letters except q and e
 
 5 The file 5-print_numbers program that prints all single digit numbers of base 10 starting from 0
+
+6 The file 6-print_numberz program that prints all single digit numbers of base 10 without char
