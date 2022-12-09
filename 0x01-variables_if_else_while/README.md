@@ -15,3 +15,5 @@
 7 The file 7-print_tebahpla  a program that prints the lowercase alphabet in reverse
 
 8 The file 8-print_base16 a program that prints all the numbers of base 16 in lowercase
+
+9 The file 9-print_comb a program that prints all possible combinations of single-digit numbers seperated by ,
