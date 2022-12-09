@@ -17,3 +17,5 @@
 8 The file 8-print_base16 a program that prints all the numbers of base 16 in lowercase
 
 9 The file 9-print_comb a program that prints all possible combinations of single-digit numbers seperated by ,
+
+10 The file 100-print_comb3 program that prints all possible different combinations of two digits. The 2 digits are different 
