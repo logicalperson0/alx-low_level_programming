@@ -5,3 +5,5 @@
 2 The file 2-print_alphabet.c a program that prints the alphabet in lowercase
 
 3 The file 3-print_alphabets.c a program that prints the alphabet in lowercase, and then in uppercase
+
+4 The file 4-print_alphabt program that prints the alphabet in lowercase,Prints all the letters except q and e
