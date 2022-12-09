@@ -10,10 +10,11 @@
 int main(void)
 {
 	int n;
+	int lastDigi;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int lastDigi = n % 10;
+	lastDigi = n % 10;
 
 	if (lastDigi > 5)
 	{
