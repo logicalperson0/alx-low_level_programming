@@ -21,3 +21,5 @@
 10 The file 100-print_comb3 program that prints all possible different combinations of two digits. The 2 digits are different 
 
 11 The file 101-print_comb4  a program that prints all possible different combinations of three digits. The 3 digits are different
+
+12 The 102-print_comb5.c  program that prints all possible combinations of two two-digit numbers.
