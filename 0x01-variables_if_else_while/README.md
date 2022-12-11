@@ -19,3 +19,5 @@
 9 The file 9-print_comb a program that prints all possible combinations of single-digit numbers seperated by ,
 
 10 The file 100-print_comb3 program that prints all possible different combinations of two digits. The 2 digits are different 
+
+11 The file 101-print_comb4  a program that prints all possible different combinations of three digits. The 3 digits are different
