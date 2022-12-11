@@ -20,25 +20,22 @@ int main(void)
 		j = 1;
 		while (j < 9)
 		{
-			if (i != j && i < j)
+			z = 2;
+			while (z < 10)
 			{
-				z = 2;
-				while (z < 10)
+				if (i != j && j != z && i != z && i < j && j < z)
 				{
-					if (j != z && j < z)
+					putchar(i + '0');
+					putchar(j + '0');
+					putchar(z + '0');
+					if (i == 7 && j == 8 && z == 9)
 					{
-						putchar(i + '0');
-						putchar(j + '0');
-						putchar(z + '0');
-						if (i == 7 && j == 8 && z == 9)
-						{
-							break;
-						}
-						putchar(',');
-						putchar(' ');
+						break;
 					}
-					z++;
+					putchar(',');
+					putchar(' ');
 				}
+				z++;
 			}
 			j++;
 		}
