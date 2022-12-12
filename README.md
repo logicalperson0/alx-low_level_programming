@@ -1,1 +1,4 @@
-This repository has c file shell scripts with gcc complier 
+This repository is for the low level programme language of C with:
+
+- Shell scripts of C
+- C files compiled with gcc
