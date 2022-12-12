@@ -21,8 +21,8 @@ while (i < 10)
 			l = 0;
 			while (l < 10)
 			{
-				ij = i + j;
-				kl = k + l;
+				ij = (i * 10) + j;
+				kl = (k * 10) + l;
 				if (ij < kl)
 				{
 					putchar(i + '0');
