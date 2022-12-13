@@ -9,3 +9,5 @@
 4. The file 5-sign function that prints the sign of a number
 
 6. The file 6-abs computes the absolute value of an integer.
+
+7. The file 7-print fun that prints last digit of a number
