@@ -11,3 +11,5 @@
 6. The file 6-abs computes the absolute value of an integer.
 
 7. The file 7-print fun that prints last digit of a number
+
+8. The file 8-24_hours prints every min of the day of Jack bauer
