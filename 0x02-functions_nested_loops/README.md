@@ -15,3 +15,4 @@
 8. The file 8-24_hours prints every min of the day of Jack bauer
 
 9. The file 9-times_table is a function that prints the 9 times table, starting with 0
+10. The file 10-add adds two integers and returns the result
