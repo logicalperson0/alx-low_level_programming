@@ -7,3 +7,5 @@
 3. The file 3-islower  a function that checks for lowercase character.
 
 4. The file 5-sign function that prints the sign of a number
+
+6. The file 6-abs computes the absolute value of an integer.
