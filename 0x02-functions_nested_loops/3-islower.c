@@ -19,13 +19,15 @@ int _islower(int c)
 	{
 		if (c == lower)
 		{
-			return (1);
+			break;
 		}
 		lower++;
 	}
-	if (c != lower)
+	if (c == lower)
 	{
-		return (0);
+		return (1);
 	}
+	else
+		return (0);
 	_putchar('\n');
 }
