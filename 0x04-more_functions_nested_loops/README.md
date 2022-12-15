@@ -15,3 +15,5 @@
 7. The file 7-print_diagonal a void function that draws a diagonal line on the terminal
 
 8. The file 8-print_square a void function that prints a square
+
+9. The file 9-fizz_buzz does the “Fizz-Buzz test” interview question 
