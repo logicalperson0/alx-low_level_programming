@@ -11,3 +11,5 @@
 5. The file 5-more_numbers a void function that prints 10 times the numbers, from 0 to 14, 10 times
 
 6. The file 6-print_line a void a function that draws a straight line in the terminal
+
+7. The file 7-print_diagonal a void function that draws a diagonal line on the terminal
