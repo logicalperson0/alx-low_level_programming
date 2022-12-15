@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * positive_or_negative - for returning positive or negative number
+ *
+ * @i: The character in ASCII code
  *
  * Return: Always 0 (Success)
  */
