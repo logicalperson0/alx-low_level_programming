@@ -5,3 +5,5 @@
 2. The file 2-mul a function that multiplies 2 integer
 
 3. The file 3-print_numbers a void function that prints the numbers, from 0 to 9
+
+4. The file 4-print_most_numbers a void function that prints the numbers, from 0 to 9 except 2 and 4
