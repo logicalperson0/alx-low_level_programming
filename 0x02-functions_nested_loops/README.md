@@ -21,3 +21,5 @@
 11. The file 11-print_to_98 a function that prints all natural numbers from n to 98
 
 12. The file print_times_table a void function that prints the n times table, starting with 0 to 15
+
+13. The file 101-natural  prints the sum of all the multiples of 3 or 5 below 1024
