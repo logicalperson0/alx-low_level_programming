@@ -19,3 +19,5 @@
 9. The file 9-fizz_buzz does the “Fizz-Buzz test” interview question
 
 10. The file 10-print_triangle a function that prints a triangle
+
+11. The file 100-prime_factor  prints the largest prime factor of the number 612852475143
