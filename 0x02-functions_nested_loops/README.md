@@ -23,3 +23,5 @@
 12. The file print_times_table a void function that prints the n times table, starting with 0 to 15
 
 13. The file 101-natural  prints the sum of all the multiples of 3 or 5 below 1024
+
+14. The file 102-fibonacci prints the first 50 Fibonacci numbers, starting with 1 and 2
