@@ -19,3 +19,5 @@
 10. The file 10-add adds two integers and returns the result
 
 11. The file 11-print_to_98 a function that prints all natural numbers from n to 98
+
+12. The file print_times_table a void function that prints the n times table, starting with 0 to 15
