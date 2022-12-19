@@ -7,8 +7,8 @@
  */
 void rev_string(char *s)
 {
-	int i = 0;
-	char *j;
+	int i = 0, j, k;
+	char *jar, tempo;
 
 	while (i >= 0)
 	{
@@ -16,10 +16,15 @@ void rev_string(char *s)
 			break;
 		i++;
 	}
-	j = s;
+	jar = s;
 
-	for (i--; i >= 0; i--)
+	for (j = 0; j < (i - 1); j++)
 	{
-		j[i];
+		for (k = j + 1; k > 0; k--)
+		{
+			tempo = *(jar + k);
+			*(jar + k) = *(jar + (k - 1));
+			*(jar + (k - 1)) = tempo;
+		}
 	}
 }

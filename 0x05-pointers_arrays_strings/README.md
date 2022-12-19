@@ -8,7 +8,7 @@
 
 4. The file 4-print_rev a fun that prints a string, in reverse,
 
-5.
+5. The file rev_string a fun that rev a str
 
 6. The file puts2 a void fun  that prints every other character of a string, starting with the first character
 
