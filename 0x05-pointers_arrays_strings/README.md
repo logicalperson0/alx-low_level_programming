@@ -13,3 +13,5 @@
 6. The file puts2 a void fun  that prints every other character of a string, starting with the first character
 
 7. The file 7-puts_half a void fun that prints half of a string (the 2nd half)
+
+8. The file 8-print_array a void fun that prints n elements of an array of integers
