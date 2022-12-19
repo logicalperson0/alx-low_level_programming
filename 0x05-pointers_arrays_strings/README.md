@@ -5,3 +5,5 @@
 2. The file strlen a function that returns the length of a string.
 
 3. The file _puts a function that prints a string, followed by a new line, to stdout
+
+4. The file 4-print_rev a fun that prints a string, in reverse,
