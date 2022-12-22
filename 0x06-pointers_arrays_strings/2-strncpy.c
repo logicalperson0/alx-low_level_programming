@@ -5,7 +5,7 @@
  *
  * @dest: the parameter that is copied to
  * @src: the source to copy from
- *
+ * @n: A ascii char
  * Return: the ptr to dest
  */
 char *_strncpy(char *dest, char *src, int n)
