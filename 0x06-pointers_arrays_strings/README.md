@@ -13,3 +13,5 @@ the difference between the char ascii
 5. The file string_toupper  changes all lowercase letters of a string to uppercase.
 
 6. The file cap_string is a function that capitalizes all words of a string.
+
+7. The file leet is a  function that encodes a string into 1337. for 5 letters with capital only (aeotl)
