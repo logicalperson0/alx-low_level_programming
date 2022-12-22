@@ -11,3 +11,5 @@ the difference between the char ascii
 4. The file rev_array is a function that reverses the content of an array of integers
 
 5. The file string_toupper  changes all lowercase letters of a string to uppercase.
+
+6. The file cap_string is a function that capitalizes all words of a string.
