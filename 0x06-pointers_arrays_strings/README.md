@@ -15,3 +15,5 @@ the difference between the char ascii
 6. The file cap_string is a function that capitalizes all words of a string.
 
 7. The file leet is a  function that encodes a string into 1337. for 5 letters with capital only (aeotl)
+
+8. The file rot-13 is a function that encodes a string using rot13
