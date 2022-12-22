@@ -7,3 +7,5 @@
 3. The file -strcmp is a function that compares two strings. Till it finds the 1st different char between them and returns
 
 the difference between the char ascii
+
+4. The file rev_array is a function that reverses the content of an array of integers
