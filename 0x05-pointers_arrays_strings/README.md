@@ -19,3 +19,5 @@
 9. The file strcpy a fun that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
 
 10. The file atoi converts a str to a int 
+
+11. The file keygen generates random valid passwords for the program 101-crackme.
