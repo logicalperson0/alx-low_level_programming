@@ -9,19 +9,23 @@
  */
 int main(void)
 {
-	int i = 0, j = 0;
-	time_t t;
+	int i = 0, j = 0, k;
+	int password[100];
 
-	srand((unsigned int) time(&t));
+	srand(time(NULL));
 
-	while (j < 2772)
+	while (i < 100)
 	{
-		i = rand() % 128;
-		if ((i + j) > 2772)
+		password[i] = rand() % 78;
+		j += (password[i] + '0');
+		putchar(password[i] + '0');
+		if ((2772 - j) - '0' < 78)
+		{
+			k = 2772 - j - '0';
+			putchar(k + '0');
 			break;
-		j = j + i;
-		printf("%c", i);
+		}
+		i++;
 	}
-	printf("%c\n", (2772 - j));
 	return (0);
 }
