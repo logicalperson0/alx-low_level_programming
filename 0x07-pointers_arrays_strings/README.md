@@ -7,3 +7,5 @@
 3. The file strspn is  a function that gets the length of a prefix substring
 
 4. The file strpbrk isa function that searches a string for any of a set of bytes
+
+5. The file strstr is a function that locates a substring.
