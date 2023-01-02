@@ -9,3 +9,5 @@
 4. The file strpbrk isa function that searches a string for any of a set of bytes
 
 5. The file strstr is a function that locates a substring.
+
+6. The file print_chessboard a function that prints the chessboard.
