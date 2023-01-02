@@ -11,3 +11,5 @@
 5. The file strstr is a function that locates a substring.
 
 6. The file print_chessboard a function that prints the chessboard.
+
+7. The file print_diagsums is a function that prints the sum of the two diagonals of a square matrix of integers
