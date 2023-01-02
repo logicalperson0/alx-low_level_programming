@@ -6,7 +6,7 @@
  * @s: a ascii char
  * @accept: a parameter for the fun that is compared to
  *
- * Return:
+ * Return: the local variable i
  */
 unsigned int _strspn(char *s, char *accept)
 {
