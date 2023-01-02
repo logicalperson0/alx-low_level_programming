@@ -6,7 +6,7 @@
  * @b: a ascii char
  * @n: a ascuu char
  *
- * Return: Always 0 for success
+ * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
