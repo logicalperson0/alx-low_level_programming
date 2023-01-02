@@ -3,7 +3,7 @@
  * _strpbrk - fun that searches a string for any of a set of bytes.
  *
  * @s: is a ascii char
- * @a: is ascii char
+ * @accept: is ascii char
  *
  * Return: pointer to byte in s
  */
@@ -19,7 +19,5 @@ char *_strpbrk(char *s, char *accept)
 				return (s + i);
 		}
 	}
-	if (s[i] == accept[j])
-		return (s + i);
 	return ('\0');
 }
