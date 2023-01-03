@@ -13,3 +13,5 @@
 6. The file print_chessboard a function that prints the chessboard.
 
 7. The file print_diagsums is a function that prints the sum of the two diagonals of a square matrix of integers
+
+8. The file set_string is a function that sets the value of a pointer to a char.
