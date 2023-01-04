@@ -6,5 +6,7 @@
 
 3. The file factorial is a function that returns the factorial of a given number.
 
-4. Thw file pow_recursion is a function that returns the value of x raised to the power of y
+4. The file pow_recursion is a function that returns the value of x raised to the power of y
+
+5. The file sqrt_recursion is a function that returns the natural square root of a number
 
