@@ -20,7 +20,7 @@ int compare(char *d1, char *d2, int x, int y)
 	return (0);
 }
 /**
- * wildcmp - function that compares two strings and returns 1 
+ * wildcmp - function that compares two strings and returns 1
  * if the strings can be considered identical
  * @s1: the parameter
  * @s2: the parameter
