@@ -11,3 +11,8 @@
 5. The file sqrt_recursion is a function that returns the natural square root of a number
 
 6. The file is_palindrome is a function that returns 1 if a string is a palindrome and 0 if not
+
+7. The file wildcmp is a function that compares two strings and returns 1 if the strings can be
+ considered identical
+
+
