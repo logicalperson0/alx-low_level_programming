@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - function that returns its name
@@ -18,7 +19,7 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		if (*argv[i] >= 48 && *argv[i] <= 57)
+		if (isdigit(*argv[i]))
 			x += atoi(argv[i]);
 		else
 		{
