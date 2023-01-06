@@ -3,3 +3,5 @@
 1. the file args a program that prints the number of arguments passed into it
 
 2. The file 2-args  a program that prints all arguments it receives
+
+3. The file mul is a program that multiplies two numbers.
