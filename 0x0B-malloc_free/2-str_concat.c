@@ -12,10 +12,20 @@ char *str_concat(char *s1, char *s2)
 	int i = 0, j = 0, n;
 	char *ptr;
 
-	while (s1[i] != '\0')
-		i++;
-	while (s2[j] != '\0')
-		j++;
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+	if (s1 != NULL)
+	{
+		while (s1[i] != '\0')
+			i++;
+	}
+	if (s2 != NULL)
+	{
+		while (s2[j] != '\0')
+			j++;
+	}
 	ptr = (char *)malloc((i + j + 1) * sizeof(char));
 	if (ptr == NULL)
 		return (NULL);
