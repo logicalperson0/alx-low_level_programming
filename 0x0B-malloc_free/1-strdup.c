@@ -13,6 +13,9 @@ char *_strdup(char *str)
 	char *ptr;
 	unsigned int i, j = 0;
 
+	if (str == NULL)
+		return (NULL);
+
 	while (str[j] != '\0')
 		j++;
 	ptr = (char *)malloc(j);
