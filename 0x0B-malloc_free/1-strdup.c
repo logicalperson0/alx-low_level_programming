@@ -18,10 +18,14 @@ char *_strdup(char *str)
 
 	while (str[j] != '\0')
 		j++;
+
+	if (j == 0)
+		return (NULL);
 	ptr = (char *)malloc(j);
 
 	if (ptr == NULL)
 		return (NULL);
+
 	for (i = 0; i < (j + 1); i++)
 	{
 		ptr[i] = str[i];
