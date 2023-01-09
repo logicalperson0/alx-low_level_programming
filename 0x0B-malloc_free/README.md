@@ -5,3 +5,5 @@ and initializes it with a specific char
 which contains a copy of the string given as a parameter.
 
 2. The file str_concat is a function that concatenates two strings
+
+3. The file alloc_grid is a function that returns a pointer to a 2 dimensional array of integers.
