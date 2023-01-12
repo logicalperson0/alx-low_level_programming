@@ -37,17 +37,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			ptr[k] = s1[k];
 		for (k = 0; k < i; k++)
 			ptr[k + j] = s2[k];
-		return (ptr);
 	}
 	else
 	{
-		ptr = malloc(sizeof(*ptr) * (j + n + 1));
+		ptr = malloc(sizeof(*ptr) * (j + n));
 		if (ptr == NULL)
 			return (NULL);
 		for (k = 0; k < j; k++)
 			ptr[k] = s1[k];
 		for (k = 0; k < n; k++)
 			ptr[k + j] = s2[k];
-		return (ptr);
 	}
+	ptr[k + j] = '\0';
+	return (ptr);
 }
