@@ -6,6 +6,7 @@
  * @nmemb: parameter array
  * @size: parameter size of arr
  * void function
+ * Return: ptr to arr nmemb
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
