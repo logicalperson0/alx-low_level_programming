@@ -4,4 +4,6 @@
 
 2. The file _calloc is a function that allocates memory for an array, using malloc.
 
-3. 
+3. The file array_range is function that creates an array of integers.
+
+4. The file realloc is a function that reallocates a memory block using malloc and free
