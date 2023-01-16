@@ -28,17 +28,23 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (new->name == NULL)
 	{
 		free(new->name);
+		free(new->owner);
+		free(new);
 		return (NULL);
 	}
 	if (new->owner == NULL)
 	{
+		free(new->name);
 		free(new->owner);
+		free(new);
 		return (NULL);
 	}
 	for (k = 0; k < i; k++)
 		new->name[k] = name[k];
+	new->name[k] = '\0';
 	new->age = age;
 	for (k = 0; k < j; k++)
 		new->owner[k] = owner[k];
+	new->owner = '\0';
 	return (new);
 }
