@@ -6,4 +6,6 @@
 
 3. The file dog.h is modified so that a new type dog_t as a new name for the type struct dog
 
-4.
+4. The file new_dog is a function that creates a new dog.
+
+5. T
