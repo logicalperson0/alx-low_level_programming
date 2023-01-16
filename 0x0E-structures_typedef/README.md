@@ -8,4 +8,4 @@
 
 4. The file new_dog is a function that creates a new dog.
 
-5. T
+5. The file free_dog is a function that frees dogs
