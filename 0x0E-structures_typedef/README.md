@@ -2,4 +2,4 @@
 
 1. The file init_dog a function that initialize a variable of type struct dog
 
-2.
+2. The file print_dog is a function that prints a struct dog
