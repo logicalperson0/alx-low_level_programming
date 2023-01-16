@@ -1,3 +1,5 @@
 0. the file dog.h defines a new type struct dog 
 
-1.
+1. The file init_dog a function that initialize a variable of type struct dog
+
+2.
