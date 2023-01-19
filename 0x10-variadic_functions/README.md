@@ -4,4 +4,4 @@
 
 2. The file print_strings is a function that prints strings, followed by a new line.
 
-3. 
+3. The file print_all is a function that prints anything
