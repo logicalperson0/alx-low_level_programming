@@ -2,4 +2,6 @@
 
 1. The file print_numbers is a function that prints numbers, followed by a new line
 
-2. 
+2. The file print_strings is a function that prints strings, followed by a new line.
+
+3. 
