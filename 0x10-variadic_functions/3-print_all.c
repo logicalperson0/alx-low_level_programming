@@ -10,6 +10,7 @@ void print_all(const char * const format, ...)
 {
 	va_list all;
 	int i = 0, j, pri = 0;
+	char *k;
 	char args[] = {'c', 'i', 'f', 's'};
 
 	va_start(all, format);
@@ -36,15 +37,15 @@ void print_all(const char * const format, ...)
 				printf("%f", va_arg(all, double)), pri = 1;
 				break;
 			case 's':
-				if (!format[i])
+				k = va_arg(all, char *), pri = 1;
+				if (!k)
 				{
 					printf("(nil)");
 					break;
 				}
-				printf("%s", va_arg(all, char *)), pri = 1;
+				printf("%s", k), pri = 1;
 				break;
 		} i++;
 	}
-	va_end(all);
-	printf("\n");
+	va_end(all), printf("\n");
 }
