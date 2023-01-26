@@ -10,8 +10,6 @@ size_t print_list(const list_t *h)
 	const list_t *tra;
 	int count = 0;
 
-	if (h == NULL)
-		return (-1);
 	tra = h;
 
 	while (tra != NULL)
