@@ -4,4 +4,4 @@
 
 2. The file add_node is a function that adds a new node at the beginning of a list_t list
 
-3.  
+3. The file add_node_end is a function that adds a new node at the end of a list_t list
