@@ -13,4 +13,6 @@
 6. The file pop_listint is a function that deletes the head node of a listint_t linked list,
    and returns the head node’s data (n).
 
-7. 
+7. The file get_nodeint is a function that returns the nth node of a listint_t linked list.
+
+8. 
