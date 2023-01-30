@@ -8,4 +8,6 @@
 
 4. The file free_listint is a function that frees a listint_t list.
 
-5. 
+5. The file free_listint2 is a function that frees a listint_t list.
+
+6. 
