@@ -15,4 +15,6 @@
 
 7. The file get_nodeint is a function that returns the nth node of a listint_t linked list.
 
-8. 
+8. The file sum_listint is a function that returns the sum of all the data (n) of a listint_t linked list.
+
+9.
