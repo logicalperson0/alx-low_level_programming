@@ -11,7 +11,7 @@ int pop_listint(listint_t **head)
 	listint_t *node, *tempo;
 	int data;
 
-	if (head == NULL)
+	if (*head == NULL)
 		return (0);
 	node = *head;
 	data = node->n;
