@@ -6,4 +6,6 @@
 
 3. The file add_nodeint_end is a function that adds a new node at the end of a listint_t list
 
-4. 
+4. The file free_listint is a function that frees a listint_t list.
+
+5. 
