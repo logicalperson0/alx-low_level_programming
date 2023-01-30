@@ -10,4 +10,7 @@
 
 5. The file free_listint2 is a function that frees a listint_t list.
 
-6. 
+6. The file pop_listint is a function that deletes the head node of a listint_t linked list,
+   and returns the head node’s data (n).
+
+7. 
