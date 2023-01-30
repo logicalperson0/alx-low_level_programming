@@ -17,4 +17,6 @@
 
 8. The file sum_listint is a function that returns the sum of all the data (n) of a listint_t linked list.
 
-9.
+9. The file insert_nodeint is a function that inserts a new node at a given position.
+
+10. 
