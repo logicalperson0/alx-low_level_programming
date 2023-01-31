@@ -19,4 +19,6 @@
 
 9. The file insert_nodeint is a function that inserts a new node at a given position.
 
-10. 
+10. The file delete_nodeint is a function that deletes the node at index index of a listint_t linked list.
+
+
