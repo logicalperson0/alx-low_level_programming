@@ -14,14 +14,11 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	if (index > 63)
 		return (-1);
 
-	if (*n == 0)
-	{
-		*n = 0;
-		return (1);
-	}
 	else
 	{
 		tra = 1 << index;
+
+		*n  = *n | tra;
 
 		*n = *n ^ tra;
 
