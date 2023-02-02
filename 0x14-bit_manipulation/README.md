@@ -2,4 +2,6 @@
 
 1. The file print_binary is a function that prints the binary representation of a number
 
-2. 
+2. The file get_bit is a function that returns the value of a bit at a given index
+
+3. 
