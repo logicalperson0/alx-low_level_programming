@@ -4,4 +4,6 @@
 
 2. The file get_bit is a function that returns the value of a bit at a given index
 
-3. 
+3. The file set_bit is a function that sets the value of a bit to 1 at a given index
+
+4. 

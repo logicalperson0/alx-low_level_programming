@@ -5,6 +5,7 @@
  * @n: parameter
  * @index: parameter
  *
+ * done for a 64-bit machine
  * Return: value of bit at index
  */
 int get_bit(unsigned long int n, unsigned int index)
