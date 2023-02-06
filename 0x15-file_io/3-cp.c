@@ -32,14 +32,9 @@ void errors(int fdfrom, int fdto, char *args[])
  */
 void close_err(int closefrom, int closeto, int fdfrom, int fdto)
 {
-	if (closefrom == -1)
+	if (closefrom == -1 || closeto == -1)
 	{
-		dprintf(2, "Error: Can't close fd %i\n", fdfrom);
-		exit(100);
-	}
-	if (closeto == -1)
-	{
-		dprintf(2, "Error: Can't close fd %i\n", fdto);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdfrom);
 		exit(100);
 	}
 }
@@ -57,11 +52,11 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		dprintf(2, "Usage: %s file_from file_to\n", argv[0]);
+		dprintf(STDERR_FILENO,"%s\n", "Usage: cp file_from file_to");
 		exit(97);
 	}
 	file_from = open(argv[1], O_RDONLY);
-	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 	errors(file_from, file_to, argv);
 
 	r = 1024;
@@ -69,10 +64,10 @@ int main(int argc, char *argv[])
 	{
 		r = read(file_from, buff, 1024);
 		if (r == -1)
-			errors(-1, 1, argv);
+			errors(-1, 0, argv);
 		w = write(file_to, buff, r);
 		if (w == -1)
-			errors(1, -1, argv);
+			errors(0, -1, argv);
 	}
 
 	closefrom = close(file_from);
