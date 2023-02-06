@@ -25,14 +25,12 @@ void errors(int fdfrom, int fdto, char *args[])
 /**
  * close_err - func that prints error to STDERR
  * @closefrom: close file_from
- * @closeto: close file_to
  * @fdfrom: parameter
- * @fdto: parameter
  * void func
  */
-void close_err(int closefrom, int closeto, int fdfrom)
+void close_err(int closefrom, int fdfrom)
 {
-	if (closefrom == -1 || closeto == -1)
+	if (closefrom == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdfrom);
 		exit(100);
@@ -46,7 +44,7 @@ void close_err(int closefrom, int closeto, int fdfrom)
  */
 int main(int argc, char *argv[])
 {
-	int file_from, file_to, closefrom, closeto;
+	int file_from, file_to, closefrom;
 	ssize_t r, w;
 	char buff[1024];
 
@@ -72,9 +70,9 @@ int main(int argc, char *argv[])
 
 	closefrom = close(file_from);
 	if (closefrom == -1)
-		close_err(-1, 0, file_from);
-	closeto = close(file_to);
-	if (closeto == -1)
-		close_err(0, -1, file_from);
+		close_err(-1, file_from);
+	closefrom = close(file_to);
+	if (closefrom == -1)
+		close_err(-1, file_from);
 	return (0);
 }
