@@ -4,20 +4,20 @@
  * errors - func that prints error to STDERR
  * @fdfrom: parameter for file_from
  * @fdto: parameter for file_to
- * @args: for argv
+ * @argv: for argv
  * void func
  */
-void errors(int fdfrom, int fdto, char *args[])
+void errors(int fdfrom, int fdto, char *argv[])
 {
 	if (fdfrom == -1)
 	{
-		dprintf(2, "Error: Can't read from file %s", args[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 
 	if (fdto == -1)
 	{
-		dprintf(2, "Error: Can't write to %s", args[2]);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
 }
