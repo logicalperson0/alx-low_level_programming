@@ -30,7 +30,7 @@ void errors(int fdfrom, int fdto, char *args[])
  * @fdto: parameter
  * void func
  */
-void close_err(int closefrom, int closeto, int fdfrom, int fdto)
+void close_err(int closefrom, int closeto, int fdfrom)
 {
 	if (closefrom == -1 || closeto == -1)
 	{
@@ -72,9 +72,9 @@ int main(int argc, char *argv[])
 
 	closefrom = close(file_from);
 	if (closefrom == -1)
-		close_err(-1, 0, file_from, file_to);
+		close_err(-1, 0, file_from);
 	closeto = close(file_to);
 	if (closeto == -1)
-		close_err(0, -1, file_from, file_to);
+		close_err(0, -1, file_from);
 	return (0);
 }
