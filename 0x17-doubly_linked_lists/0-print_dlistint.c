@@ -15,8 +15,6 @@ size_t print_dlistint(const dlistint_t *h)
 		return (i);
 
 	pri = malloc(sizeof(dlistint_t));
-	if (pri == NULL)
-		return (0);
 	pri = h;
 
 	while (pri->next != NULL)
