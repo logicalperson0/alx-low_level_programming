@@ -8,21 +8,17 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	const dlistint_t *pri;
 	int i = 0;
 
 	if (h == NULL)
 		return (i);
 
-	pri = malloc(sizeof(dlistint_t));
-	pri = h;
-
-	while (pri->next != NULL)
+	while (h->next != NULL)
 	{
-		printf("%d\n", pri->n);
-		pri = pri->next;
+		printf("%d\n", h->n);
+		h = h->next;
 		i++;
 	}
-	printf("%d\n", pri->n);
+	printf("%d\n", h->n);
 	return (i + 1);
 }
