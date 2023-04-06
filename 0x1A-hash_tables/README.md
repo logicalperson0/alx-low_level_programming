@@ -1,0 +1,11 @@
+Project done during Full Stack Software Engineering studies at the ALX School.
+
+To learn how to implement Hash Tables with C
+
+Tested on Ubuntu 14.04 LTS
+
+The files for the tasks in this project are:
+
+0-hash_table_create.c: Function that creates a hash table
+
+
