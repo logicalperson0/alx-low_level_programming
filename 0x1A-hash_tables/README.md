@@ -11,3 +11,7 @@ The files for the tasks in this project are:
 1-djb2.c: Function that executes the djb2 algorithm
 
 2-key_index.c: Function that returns the index of a key
+
+3-hash_table.c: Function that adds an element to the hash table
+
+
