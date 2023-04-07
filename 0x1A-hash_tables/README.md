@@ -16,4 +16,6 @@ The files for the tasks in this project are:
 
 4-hash_table_get.c: Function that retrieves a value associated with a key
 
+5-hash_table_print.c: Function that prints a hash table
+
 
