@@ -40,6 +40,10 @@ hash_table_t *hash_table_create(unsigned long int size);
 unsigned long int hash_djb2(const unsigned char *str);
 unsigned long int key_index(const unsigned char *key, unsigned long int size);
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
+
+/* for creating and adding node to a linked list when key has more than 1*/
 hash_node_t *add_hash_node(hash_node_t **h, const char *k, const char *v);
+
+char *hash_table_get(const hash_table_t *ht, const char *key);
 
 #endif

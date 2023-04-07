@@ -14,4 +14,6 @@ The files for the tasks in this project are:
 
 3-hash_table.c: Function that adds an element to the hash table
 
+4-hash_table_get.c: Function that retrieves a value associated with a key
+
 
