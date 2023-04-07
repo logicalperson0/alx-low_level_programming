@@ -8,4 +8,6 @@ The files for the tasks in this project are:
 
 0-hash_table_create.c: Function that creates a hash table
 
+1-djb2.c: Function that executes the djb2 algorithm
+
 
