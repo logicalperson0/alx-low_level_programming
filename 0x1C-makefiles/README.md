@@ -8,7 +8,7 @@ It aims to learn what are makefiles, when, why and how to use them (with variabl
 Technologies
 =============
 
-Scripts written in Bash
+Scripts written in Bash 5.1.16
 
 C files are compiled using gcc 9.3.0
 
