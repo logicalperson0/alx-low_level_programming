@@ -18,16 +18,21 @@ def island_perimeter(grid):
     for x in range(len(xrows)):
         for y in range(len(ycols)):
             if grid[x][y] == 1:
-                if y == 0 or grid[x][y - 1] == 0:  # check the left
+
+                # check the left
+                if y == 0 or grid[x][y - 1] == 0:
                     peri += 1
 
-                if x == 0 or grid[x - 1][y] == 0:  # check the top
+                # check the top
+                if x == 0 or grid[x - 1][y] == 0:
                     peri += 1
 
-                if y == len(ycols) or grid[x][y + 1] == 0:  # check the right
+                # check the right
+                if y == len(ycols) - 1 or grid[x][y + 1] == 0:
                     peri += 1
 
-                if x == len(xrows) or grid[x + 1][y] == 0:  # check the bottom
+                # check the bottom
+                if x == len(xrows) - 1 or grid[x + 1][y] == 0:
                     peri += 1
 
     return peri
