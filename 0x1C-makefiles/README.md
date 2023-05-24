@@ -28,3 +28,9 @@ Filename  :=> File Description
 
 2-Makefile :=> Builds an executable using CC, SRC, OBJ and NAME variables
 
+3-Makefile :=>  Builds an executable using clean, oclean, fclean and re rules, and CC, SRC, OBJ, NAME and RM variables
+
+4-Makefile :=>  Builds an executable using clean, oclean, fclean and re rules, and CC, SRC, OBJ, NAME, RM and CFLAGS variables
+
+5-island_perimeter.py :=>  Function that returns the perimeter of an island described in grid list
+
