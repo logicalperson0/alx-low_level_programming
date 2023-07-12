@@ -39,3 +39,25 @@ Assumes the array is sorted in ascending order and that the value to search for 
 6. Big O #4
 
 6-O: Text file containing the space complexity of the following algorithm:
+
+7. Jump search
+
+100-jump.c: C function that searches for a value in a sorted array of integers using jump search.
+Uses the square root of the size of the array as the jump step.
+
+8. Big O #5
+
+101-O: Text file containing the average case time complexity of jump search in an array of size n using step = sqrt(n).
+
+9. Interpolation search
+
+102-interpolation.c: C function that searches for a value in a sorted array of integers using interpolation search.
+Assumes the array is sorted in ascending order.
+
+10. Exponential search
+
+103-exponential.c: C function that searches for a value in a sorted array of integers using exponential search.
+Uses powers of 2 as exponential ranges to search the array.
+Assumes the array is sorted in ascending order.
+
+
